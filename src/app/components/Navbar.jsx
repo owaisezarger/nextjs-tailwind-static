@@ -23,8 +23,8 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor);
   }, []);
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+    <nav className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
+      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-gray-200">
         <Link href="/">
           <h1 className="font-bold text-4xl">Captur</h1>
         </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
